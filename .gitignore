@@ -1,0 +1,11 @@
+# Node modules
+node_modules/
+
+# macOS files
+.DS_Store
+
+# IDE files
+.idea/
+.vscode/
+
+tailwindcss

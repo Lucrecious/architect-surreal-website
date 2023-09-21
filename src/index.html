@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architect Surreal - Game Studio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../dist/tailwind.css">
+</head>
+
+<body class="flex flex-col w-full h-screen bg-forest">
+
+    <div class="flex flex-col pt-16 w-full bg-forest items-center">
+        <div class="flex flex-col w-4/5">
+            <div class="flex flex-row items-center h-[48px]">
+                <img src="img/icon.svg" class="self-center w-[64px] h-[64] mr-4" alt="Architect Surreal Icon">
+                <span class="inline-block content-center my-font text-white text-left text-4xl">
+                    Architect Surreal
+                </span>
+            </div>
+
+
+            <div class="h-24"></div>
+
+            <div class="flex flex-col w-full">
+                <h1 class="my-font w-2/3 text-white text-left text-5xl leading-normal mb-5 collision-text">
+                    An indie game studio by dreamers, for dreamers.
+                </h1>
+                <div class="flex flex-row">
+                    <p class="my-font text-forest-light text-xl first-letter:text-5xl first-line:uppercase
+                                first-line:tracking-widest first-letter:font-bold first-letter:float-left first-letter:mr-3
+                                leading-loose collision-text w-2/3">
+                        Hello and welcome to Architect Surreal!
+                        We're a budding indie game studio with a knack for weaving dreams into digital landscapes.
+                        We're new, but what we lack in years, we make up for in creativity and dedication.
+                        Dive into our past projects to see the dreamscapes we've already crafted!
+                    </p>
+
+                    <button id="play-button"
+                        class="my-font mx-auto mb-auto text-base text-forest-dark bg-yellow py-2 px-6 rounded-sm collision">
+                        Contact
+                    </button>
+                </div>
+            </div>
+
+            <div class="h-24"></div>
+        </div>
+    </div>
+
+    <div class="flex flex-col w-full bg-forest-light items-center">
+        <div class="h-[10rem]"></div>
+
+        <div class="flex flex-col w-4/5 space-y-32 items-center lgxl:items-start">
+            <div class="flex flex-col-reverse lgxl:flex-row">
+                <div class="w-[32rem] bg-forest rounded-md shadow-lg p-10 collision">
+                    <div class="flex flex-row space-x-5">
+                        <img src="img/bard-face.png" class="w-20 h-20">
+                        <h1 class="my-font text-left text-3xl text-white self-center">
+                            Arpeegees
+                        </h1>
+                    </div>
+                    <div class="h-[1rem]"></div>
+                    <p class="my-font text-left text-base text-forest-light leading-loose">
+                        Created for the amazing Egoraptor from the Game Grumps.
+                        He rolled out these cool “Arpeegees” enamel pins inspired by classic RPGs.
+                        We complemented those with a game! While Egoraptor gave us the art, we dialed in the sound, music,
+                        design, and code.
+                    </p>
+
+                    <a href="http://arpeegees.com/" class="my-font text-base text-yellow leading-loose">
+                        <p>
+                        Play
+                        </p>
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=vhaTMMTftmc" class="my-font text-base text-yellow">
+                        <p>
+                        Gameplay Video
+                        </p>
+                    </a>
+                </div>
+
+                <div class="flex flex-col pl-32">
+                    <div class="bg-yellow w-52 h-10 rounded-md ring-4 ring-forest-dark collision">
+                    </div>
+
+                    <div class="bg-yellow w-52 h-10 ml-52 mt-24 rounded-md ring-4 ring-forest-dark collision">
+                    </div>
+
+                    <div class="bg-yellow w-52 h-10 mt-24 rounded-md ring-4 ring-forest-dark collision">
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-[32rem] self-end bg-forest rounded-md shadow-lg p-10 collision">
+                <div class="flex flex-row space-x-5">
+                    <img src="img/knight.png" class="w-20 h-20 image-pixelated">
+                    <h1 class="my-font text-left text-3xl text-white self-center">
+                        Red Fantasy
+                    </h1>
+                </div>
+                <div class="h-[1rem]"></div>
+                <p class="my-font text-base text-forest-light leading-loose">
+                    Red Fantasy is an action-packed 2D platforming game.
+                    We made this project to show off our skills at a small scale.
+                    Slash, dodge and make your way to the epic boss battle near the end!
+                </p>
+                  <a href="https://lucrecious.itch.io/red-fantasy" class="my-font text-base text-yellow leading-loose">
+                    <p>
+                      Play
+                    </p>
+                  </a>
+                  <a href="https://www.youtube.com/watch?v=d5_rYcInDH4" class="my-font text-base text-yellow">
+                    <p>
+                      Gameplay Video
+                    </p>
+                  </a>
+            </div>
+
+            <div class="w-[32rem] bg-forest rounded-md shadow-lg p-10 collision">
+                <div class="flex flex-row space-x-5">
+                    <img src="img/grimi.png" class="w-20 h-20">
+                    <h1 class="my-font text-left text-3xl text-white self-center">
+                        Grimistar
+                    </h1>
+                </div>
+                <div class="h-[1rem]"></div>
+                <p class="my-font text-base text-forest-light leading-loose">
+                    Created during the Toronto Game Jam we got Grimistar!
+                    This is a short rail shooter where you get upgrades for <i>dying</i>!
+                    Try to get all the upgrades!
+                </p>
+                  <a href="https://lucrecious.itch.io/grimistar-once-again-with-feeling-developers-cut" class="my-font text-base text-yellow">
+                    <p>
+                        Play
+                    </p>
+                  </a>
+            </div>
+        </div>
+
+        <div class="h-[10rem]"></div>
+
+        <div id="contact-section" class="flex flex-col w-full bg-forest items-center">
+            <div class="h-[10rem]"></div>
+            <div class="w-[32rem] p-10 collision">
+              <h1 class="my-font text-left text-3xl text-white self-center mb-5">
+                Inquiry
+              </h1>
+              <form action="https://formspree.io/f/mzbljjaz" method="POST">
+                <label for="name" class="my-font text-base text-forest-light mb-2">Name:</label>
+                <input type="text" id="name" name="name" class="w-full mb-4 rounded-md bg-white p-2">
+                
+                <label for="email" class="my-font text-base text-forest-light mb-2">Email:</label>
+                <input type="email" id="email" name="email" class="w-full mb-4 rounded-md bg-white p-2">
+                
+                <label for="message" class="my-font text-base text-forest-light mb-2">Message:</label>
+                <textarea id="message" name="message" rows="4" class="w-full mb-4 rounded-md bg-white p-2"></textarea>
+                
+                <button type="submit" class="my-font text-base text-forest-dark bg-yellow py-2 px-6 rounded-md">
+                  Submit
+                </button>
+              </form>
+            </div>
+            <div class="h-[10rem]"></div>
+          </div>
+          
+    </div>
+
+    <canvas id="game" class="absolute top-0 left-0 w-[1px] h-[1px] z-[9999]" style="pointer-events: none;"></canvas>
+
+    <style>
+        .my-font {
+            font-family: 'Rubik', cursive;
+        }
+    </style>
+    <script src="game.js"></script>
+    <script>
+
+        const canvas = document.getElementById("game");
+        const ctx = canvas.getContext("2d");
+        const pixelRatio = window.devicePixelRatio || 1;
+        console.log(pixelRatio);
+
+        function updateCanvasDimensions() {
+            canvas.style.width = `${document.body.scrollWidth}px`;
+            canvas.style.height = `${document.body.scrollHeight}px`;
+
+            canvas.width = document.body.scrollWidth * pixelRatio;
+            canvas.height = document.body.scrollHeight * pixelRatio;
+
+            ctx.scale(pixelRatio, pixelRatio);
+        }
+
+        function getGlobalPosition(element) {
+            const rect = element.getBoundingClientRect()
+            return {
+                x: rect.left + window.scrollX,
+                y: rect.top + window.scrollY,
+            }
+        }
+
+        function getCanvasPosition(el) {
+            const position = getGlobalPosition(el);
+            const canvasPosition = getGlobalPosition(canvas);
+
+            const rx = position.x - canvasPosition.x;
+            const ry = position.y - canvasPosition.y;
+
+            return {
+                x: canvasPosition.x + rx,
+                y: canvasPosition.y + ry,
+            };
+        }
+
+        function getCanvasRect(el) {
+            const position = getCanvasPosition(el);
+            const boundingRect = el.getBoundingClientRect();
+            const rect = {
+                x: position.x,
+                y: position.y,
+                width: boundingRect.width,
+                height: boundingRect.height,
+            };
+
+            return rect;
+        }
+
+        function getExternalStaticRectsLocalSpace() {
+            const rects = []
+            document.querySelectorAll('.collision-text').forEach(el => {
+                const range = document.createRange();
+                range.selectNode(el.firstChild);
+                rects.push(getCanvasRect(range));
+            });
+
+            document.querySelectorAll('.collision').forEach(el => {
+                rects.push(getCanvasRect(el));
+            });
+
+            return rects;
+        }
+
+        const spawnElement = document.getElementById('play-button');
+        const spawnPosition = getCanvasPosition(spawnElement);
+        spawnPosition.x += spawnElement.getBoundingClientRect().width / 2.0;
+        spawnPosition.y -= 200
+        console.log(JSON.stringify(spawnPosition));
+
+        game.init(document, ctx, canvas, new Vector2(spawnPosition.x, spawnPosition.y));
+
+        game.externalStaticRectsInLocalSpace = getExternalStaticRectsLocalSpace();
+
+        updateCanvasDimensions();
+        window.addEventListener('resize', () => {
+            updateCanvasDimensions();
+            game.externalStaticRectsInLocalSpace = getExternalStaticRectsLocalSpace();
+            game.draw();
+        });
+        game.draw();
+
+        window.addEventListener('blur', () => {
+            game.pause(true);
+            console.log("paused on blur");
+        });
+
+        window.addEventListener('focus', () => {
+            game.pause(false);
+            console.log("unpaused on focus");
+        });
+
+    </script>
+    <script>
+
+document.getElementById("play-button").addEventListener("click", function() {
+  document.getElementById("contact-section").scrollIntoView({ behavior: "smooth" });
+})
+// Validate and send email
+document.addEventListener("DOMContentLoaded", function() {
+  const form = document.querySelector("form");
+  
+  form.addEventListener("submit", function(event) {
+    event.preventDefault();
+    
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
+    
+    if (message.length < 10) {
+      alert("Message should be at least 10 characters long.");
+      return;
+    }
+    
+    if (!/\S+@\S+\.\S+/.test(email)) {
+      alert("Please enter a valid email.");
+      return;
+    }
+
+    // Send email (using EmailJS or your preferred method)
+    // ... code to send email goes here ...
+  });
+});
+    </script>
+</body>
+
+</html>

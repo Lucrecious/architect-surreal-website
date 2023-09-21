@@ -1,0 +1,1 @@
+./tailwindcss -i src/styles.css -o dist/tailwind.css
